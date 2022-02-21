@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Restora Restaurant</title>
+    <link rel="icon" href="images/logo1.jpg" type="image/icon type"><!--Add title icon-->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ccf28fcb1e.js" crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="feedback.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+    <link rel="stylesheet" href="gallery-grid.css">
+    <link rel="stylesheet" href="feedback.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60"><!--Track section to active navbar-->
+
+    <div class="spinner-grow" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+    <!--Navbar======-->
+    <header class='header'>
+	    
+	    <nav class='navbar navbar-style navbar-fixed-top'>
+		  <div class='container'>
+		    <div class='navbar-header'>
+			<button type='button' class='navbar-toggle' data-toggle='collapse' data-target='#micon'>
+			
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			
+			</button>
+             <a href="#myPage" class="logo-name"><img class='logo' src="images/logo1.jpg">Restora</a>
+             
+			  
+			</div>
+		    
+			
+		    <div class='collapse navbar-collapse' id='micon'>
+			 <ul class='nav navbar-nav navbar-right'>
+			    
+				<li><a href="#myPage" data-toggle='tooltip' title="home page">Home</a></li>
+				<li><a href="#about">About Us</a></li>
+				<li><a href="#menu">Our Menu</a></li>
+                <li><a href="#food">Meals</a></li>
+                <li><a href="#gallary">Gallary</a></li>
+				<li><a href="#social-icons">Contact Us</a></li>
+			 
+			 
+			 </ul>
+		    </div>
+		  </div>
+		</nav>
+	 </header>
+    <!--End of Navber===============-->
+    <!--Header============-->
+      
+      <header class="header2" id="myPage">
+        <div class="hero">
+            <h1 class="title animate__animated animate__fadeInDown">Fresh And Delicious</h1>
+            <a href="#" class="hero-button pulsate" data-toggle="modal" data-target="#exampleModal" >Book A Table</a>
+        </div>
+      </header>
+    <!--End of Header===========-->
+    <!--About US=============-->
+       <section id="about">
+           <div>
+              <h2>About Us</h2>
+           </div>
+           <div class="about-center">
+            <!--Start of the article1--> 
+            <article class="about">
+                <div class="about-icon">
+                    <i class="fas fa-mug-hot"></i></div>
+                    <div class="about-text">
+                        <h2 class="about-subtitle">Drinks</h2>
+                        <p class="about-info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                            Facilis esse!</p>
+                    </div>
+              </article>
+            <!--End of Start of the article-->
+             <!--Start of the article2--> 
+             <article class="about">
+                    <div class="about-icon">
+                        <i class="fas fa-utensils"></i></div>
+                        <div class="about-text">
+                            <h2 class="about-subtitle">Healthy Food</h2>
+                            <p class="about-info">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                 Facilis esse!</p>
+                        </div>
+                  </article>
+                <!--End of Start of the article-->
+                 <!--Start of the article3--> 
+            <article class="about">
+                    <div class="about-icon">
+                        <i class="fas fa-mortar-pestle"></i></div>
+                        <div class="about-text">
+                            <h2 class="about-subtitle">Organic Food</h2>
+                            <p class="about-info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                Facilis esse!</p>
+                        </div>
+                  </article>
+                <!--End of Start of the article-->
+                 <!--Start of the article4--> 
+            <article class="about">
+                    <div class="about-icon">
+                        <i class="fas fa-drumstick-bite"></i></div>
+                        <div class="about-text">
+                            <h2 class="about-subtitle">White Meat</h2>
+                            <p class="about-info">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                 Facilis esse!</p>
+                        </div>
+                  </article>
+                <!--End of Start of the article-->
+                 <!--Start of the article5--> 
+            <article class="about">
+                    <div class="about-icon">
+                        <i class="fas fa-fish"></i></div>
+                        <div class="about-text">
+                            <h2 class="about-subtitle">Sea Food</h2>
+                            <p class="about-info">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                 Facilis esse!</p>
+                        </div>
+                  </article>
+                <!--End of Start of the article-->
+                 <!--Start of the article6--> 
+            <article class="about">
+                    <div class="about-icon">
+                        <i class="fas fa-pepper-hot"></i></div>
+                        <div class="about-text">
+                            <h2 class="about-subtitle">Hot and Spicy</h2>
+                            <p class="about-info">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                 Facilis esse!</p>
+                        </div>
+                  </article>
+                <!--End of Start of the article-->
+           </div>
+       </section>
+    <!--End of About US=============-->
+    <!--Start Menu Section=============-->
+    <section class="menu" id="menu">
+       <article class="menu-image"></article>
+       <article class="menu-text">
+           <div class="menu-text-center">
+               <h1>Our Menu</h1>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae laborum culpa non dolorem adipisci?
+                    Eveniet veritatis sed vero. Illo doloribus ab, distinctio ullam sed saepe? Distinctio!
+               </p>
+                <a href="#">Explore</a>
+           </div>
+       </article>
+    </section>
+    <!--End of Menu Section=============-->
+    <!--Start Social Icons=============-->
+     <section id="social-icons">
+       <a href="#"><i class="fab fa-facebook facebook"></i></a>
+       <a href="#"><i class="fab fa-twitter twitter"></i></a>
+       <a href="#"><i class="fab fa-instagram instagram"></i></a>
+       <a href="#"><i class="fab fa-google-plus plus"></i></a>
+     </section>
+    <!--End of Social Icons=============-->
+    <!--Start Numbers=============-->
+    <div class="container-fluid">
+	<div class="row bg">
+	
+    <section id="numbers">
+	  <div class="col-sm-3">
+      <article class="number">
+          <i class="fas fa-cloud-meatball"></i>
+          <p>50</p>
+          <h3>Meat Dishes</h3>
+      </article>
+	  </div>
+      <div class="col-sm-3">
+      <article class="number">
+        <i class="fas fa-cheese"></i>
+        <p>35</p>
+        <h3>Cheese Dishes</h3>
+     </article>
+     </div>
+	 <div class="col-sm-3">
+    <article class="number">
+        <i class="fas fa-pizza-slice"></i>
+        <p>80</p>
+        <h3>Pizzas</h3>
+    </article>
+    </div>
+	<div class="col-sm-3">
+    <article class="number">
+        <i class="fas fa-ice-cream"></i>
+        <p>25</p>
+        <h3>Desserts</h3>
+    </article>
+	</div>
+    </section>
+	</div>
+	</div>
+    <!--End Numbers=============-->
+    <!--=======Card Section========-->
+    <div class="container-fluid">
+        <div class="row ">
+    <section id="food">
+       <div>
+           <h2 class="title-text">Meals</h2>
+       </div>
+       <div class="food-container">
+           <!--===Article=======-->
+        <div class="col-sm-4">
+           <article class="food-card img-responsive ">
+               <img src="images/break.jpg" class=" food-img " alt="">
+               <div class="img-text">
+                   <h1>Breakfast</h1>
+               </div>
+               <div class="img-footer">
+                   
+                   <div class="footer-btn">
+                       <button type="button" class="food-btn">Order Now</button>
+                   </div>
+               </div>
+           </article>
+        </div>
+           <!---=========End of article=======-->
+
+              <!--===Article=======-->
+            <div class="col-sm-4">
+              <article class="food-card">
+                <img src="images/cover2.jpg" class=" food-img " alt="">
+                <div class="img-text">
+                    <h1>Lunch</h1>
+                </div>
+                <div class="img-footer">
+                    
+                    <div class="footer-btn">
+                        <button type="button" class="food-btn">Order Now</button>
+                    </div>
+                </div>
+            </article>
+            </div>
+            <!---=========End of article=======-->
+
+               <!--===Article=======-->
+     <div class="col-sm-4">
+           <article class="food-card ">
+            <img src="images/break.jpg" class="food-img" alt="">
+            <div class="img-text">
+                <h1>Dinner</h1>
+            </div>
+            <div class="img-footer">
+                
+                <div class="footer-btn">
+                    <button type="button" class="food-btn">Order Now</button>
+                </div>
+            </div>
+        </article>
+     </div>
+        <!---=========End of article=======-->
+       </div>
+    </section>
+    </div>
+    </div>
+    <!--=======End of Card Section========-->
+    <!--====Start Gallary=================-->
+    
+    <div class="container-fluid gallery-container">
+
+        <h1 style="font-family: 'Baloo Chettan 2', cursive;">Take A Tour </h1>
+        
+        <div class="tz-gallery" id="gallary">
+    
+            <div class="row ">
+    
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <a class="lightbox" href="images/juice2.jpg">
+                            <img src="images/juice2.jpg" alt="juice">
+                        </a>
+                       
+                        
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <a class="lightbox" href="images/juice2.jpg">
+                            <img src="images/juice2.jpg" alt="juice">
+                        </a>
+                       
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <a class="lightbox" href="images/juice2.jpg">
+                            <img src="images/juice2.jpg" alt="juice">
+                        </a>
+                        
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <a class="lightbox" href="images/juice2.jpg">
+                            <img src="images/juice2.jpg" alt="juice">
+                        </a>
+                        
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <a class="lightbox" href="images/juice2.jpg">
+                            <img src="images/juice2.jpg" alt="juice">
+                        </a>
+                        
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <a class="lightbox" href="images/juice2.jpg">
+                            <img src="images/juice2.jpg" alt="juice">
+                        </a>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    
+    </div>
+     <!--====End Gallary=================-->
+     <!--=========Opinions Section=========-->
+    
+<div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+    <h2 class="text-center">What our customers say</h2>
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+    <h4>"This company is the best. I am so happy with the result!"<br><span style="font-style:normal;">Michael Roe, Vice President, Comment Box</span></h4>
+    </div>
+    <div class="item">
+      <h4>"One word... WOW!!"<br><span style="font-style:normal;">John Doe, Salesman, Rep Inc</span></h4>
+    </div>
+    <div class="item">
+      <h4>"Could I... BE any more happy with this company?"<br><span style="font-style:normal;">Chandler Bing, Actor, FriendsAlot</span></h4>
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<!--=========End Opinions Section=========-->
+
+<!--Start Feedback-->
+<div id="feedback">
+	<div id="feedback-form" style='display:none;' class="col-xs-4 col-md-4 panel panel-default">
+		<form method="POST" action="/feedback" class="form panel-body" role="form">
+			<div class="form-group">
+				<input class="form-control" name="email" autofocus placeholder="Your e-mail" type="email" />
+			</div>
+			<div class="form-group">
+				<textarea class="form-control" name="body" required placeholder="Please write your feedback here..." rows="5"></textarea>
+			</div>
+			<button class="btn btn-primary pull-right " type="submit">Send</button>
+		</form>
+	</div>
+	<div id="feedback-tab">Feedback</div>
+	
+</div>
+<!-- End Feedback-->
+<!--=================Start Modal==================--> 
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+    
+            <h5 class="book-title text-center">Book Table</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="recipient-name" class="col-form-label">Your Name</label>
+              <input type="text" class="form-control" id="recipient-name">
+            </div>
+
+            <div class="form-group">
+                <label for="recipient-name" class="col-form-label">Your Phone Number</label>
+                <input type="text" class="form-control" id="recipient-name">
+            </div>
+
+            <div class="form-group">
+                <label for="recipient-name" class="col-form-label">Number of Seats</label>
+                <input type="text" class="form-control" id="recipient-name">
+            </div>
+
+            <div class="form-group">
+                <label for="recipient-name" class="col-form-label">Time</label>
+                <input type="text" class="form-control" id="recipient-name">
+              </div>
+            <div class="form-group">
+              <label for="message-text" class="col-form-label">Message:</label>
+              <textarea class="form-control" id="message-text"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Book</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--=================End Modal==================-->    
+<!--===========Start Footer===========-->
+
+   
+<footer class="container-fluid text-center footer">
+    <a href="#myPage" title="To Top">
+        <span class="glyphicon glyphicon-chevron-up"></span>
+      </a>
+      <div class="row">
+        <span class="glyphicon glyphicon-map-marker"></span>
+         <span><a href="#">Haddah Street </a></span> 
+    </div>
+    <div class="row">
+        <span class="glyphicon glyphicon-envelope"></span>
+         <span><a href="#"> technolife@company.com</a></span> 
+    </div>
+    <div class="row">
+        <span class="glyphicon glyphicon-phone"></span>
+         <span><a href="#">+96777463729</a></span> 
+    </div>
+    
+     <p>Restora Theme Made By <a href="http://www.Technolife.com" title="Visit Technolife">www.Technolife/Noor.com</a></p> 
+</footer>
+
+<!--===========End Footer===========-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+<script>
+    baguetteBox.run('.tz-gallery');
+</script>
+<script>
+   $('#exampleModal').on('show.bs.modal', function (event) {
+  var button = $(event.relatedTarget) // Button that triggered the modal
+  var recipient = button.data('whatever') // Extract info from data-* attributes
+  // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+  // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+  var modal = $(this)
+  modal.find('.modal-title').text('New message to ' + recipient)
+  modal.find('.modal-body input').val(recipient)
+})
+</script>
+
+
+</body>
+</html>
